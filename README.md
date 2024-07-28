@@ -1,35 +1,20 @@
 # 1t-chat
 
-This template should help get you started developing with Vue 3 in Vite.
+Самостоятельная работа в рамках курса 1t
 
-## Recommended IDE Setup
+## Инструкция по установке
+1. Клонировать или скачать репозиторий
+2. **npm i**
+3. В файле **.env** указать параметры подключения к базе данных **DB_***
+4. **npm run watch**
+5. **npm run dev**
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## Инструкция по началу работы
+1. Запустить клиент по адресу указанному в консоли после выполнения команды **npm run dev**
+2. Зарегистрировать пользователей
+3. Войти под учетными записями. **ВАЖНО:** Для того чтобы можно было проверить всё на одном клиенте, сохранение JWT Token в localStorage удалено. Любая перезагрузка страницы приводит на форму ввода логина и пароля.
+4. Далее нужно создать комнату нажав на кнопку "+" и ввести её имя
+5. После чего нужно к ней присоединиться нажав на кнопку "Присоединиться" в заголовке чата.
+6. Далее другие пользователи могут найти комнату в строке поиска и так же присоединиться к ней
 
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+Можно начинать переписку. Для того чтобы написать личное сообщение, нужно нажать на имя пользователя в сообщении
